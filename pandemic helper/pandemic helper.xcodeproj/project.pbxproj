@@ -22,8 +22,8 @@
 		9D05F727245FFF9E0073DE1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D05F724245FFF9E0073DE1E /* Assets.xcassets */; };
 		9D3073592460CEA500E54F63 /* ProblemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3073582460CEA500E54F63 /* ProblemData.swift */; };
 		9D30735B2460F5D300E54F63 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D30735A2460F5D300E54F63 /* Utilities.swift */; };
-		9D30735D2460F5F200E54F63 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D30735C2460F5F200E54F63 /* TestViewController.swift */; };
-		9D30735F2460F61A00E54F63 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D30735E2460F61A00E54F63 /* TestModel.swift */; };
+		9D9C3909246184D500C75C6D /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9C3908246184D500C75C6D /* TestModel.swift */; };
+		9D9C390B246184EF00C75C6D /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9C390A246184EF00C75C6D /* TestViewController.swift */; };
 		9DAB0FC1246009340000B619 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DAB0FC0246009340000B619 /* GoogleService-Info.plist */; };
 		9DAB0FC3246017310000B619 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB0FC2246017310000B619 /* ImageDownloader.swift */; };
 		9DE5296D246070B100172350 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5296C246070B100172350 /* MapViewController.swift */; };
@@ -72,9 +72,9 @@
 		9D05F724245FFF9E0073DE1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D3073582460CEA500E54F63 /* ProblemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemData.swift; sourceTree = "<group>"; };
 		9D30735A2460F5D300E54F63 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		9D30735C2460F5F200E54F63 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestViewController.swift; path = "../../../test_h 3/test_h/TestViewController.swift"; sourceTree = "<group>"; };
-		9D30735E2460F61A00E54F63 /* TestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestModel.swift; path = "../../../test_h 3/test_h/TestModel.swift"; sourceTree = "<group>"; };
 		9D3AADFA7D27A7A6964DCFF1 /* Pods_pandemic_helperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pandemic_helperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9C3908246184D500C75C6D /* TestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
+		9D9C390A246184EF00C75C6D /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		9DAB0FC0246009340000B619 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9DAB0FC2246017310000B619 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		9DE5296C246070B100172350 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -170,7 +170,7 @@
 		9D05F716245FFF510073DE1E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				9D30735E2460F61A00E54F63 /* TestModel.swift */,
+				9D9C3908246184D500C75C6D /* TestModel.swift */,
 				9D30735A2460F5D300E54F63 /* Utilities.swift */,
 				9D05F717245FFF6D0073DE1E /* NewsCustomCell.swift */,
 				9D05F718245FFF6D0073DE1E /* NewsData.swift */,
@@ -183,7 +183,7 @@
 		9D05F71B245FFF7A0073DE1E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				9D30735C2460F5F200E54F63 /* TestViewController.swift */,
+				9D9C390A246184EF00C75C6D /* TestViewController.swift */,
 				9D05F71D245FFF910073DE1E /* NewsViewController.swift */,
 				9D05F71C245FFF910073DE1E /* StatViewController.swift */,
 				9DE5296C246070B100172350 /* MapViewController.swift */,
@@ -465,13 +465,13 @@
 				9D3073592460CEA500E54F63 /* ProblemData.swift in Sources */,
 				9DE5296D246070B100172350 /* MapViewController.swift in Sources */,
 				9D05F71A245FFF6D0073DE1E /* NewsData.swift in Sources */,
+				9D9C3909246184D500C75C6D /* TestModel.swift in Sources */,
 				9DAB0FC3246017310000B619 /* ImageDownloader.swift in Sources */,
+				9D9C390B246184EF00C75C6D /* TestViewController.swift in Sources */,
 				9D05F71F245FFF910073DE1E /* StatViewController.swift in Sources */,
-				9D30735F2460F61A00E54F63 /* TestModel.swift in Sources */,
 				9D05F719245FFF6D0073DE1E /* NewsCustomCell.swift in Sources */,
 				9D30735B2460F5D300E54F63 /* Utilities.swift in Sources */,
 				9D05F726245FFF9E0073DE1E /* AppDelegate.swift in Sources */,
-				9D30735D2460F5F200E54F63 /* TestViewController.swift in Sources */,
 				9D05F720245FFF910073DE1E /* NewsViewController.swift in Sources */,
 				9DE5296F2460849000172350 /* SafariViewController.swift in Sources */,
 				9D05F725245FFF9E0073DE1E /* SceneDelegate.swift in Sources */,
